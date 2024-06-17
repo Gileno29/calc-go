@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func sum(x, y float64) float64 {
+func soma(x, y float64) float64 {
 
 	return x + y
 }
@@ -66,7 +66,7 @@ func main() {
 
 			}
 
-			fmt.Println("Soma dos valores: ", sum(v1Float, v2Float))
+			fmt.Println("Soma dos valores: ", soma(v1Float, v2Float))
 
 		case float64(2):
 			var v1 string
